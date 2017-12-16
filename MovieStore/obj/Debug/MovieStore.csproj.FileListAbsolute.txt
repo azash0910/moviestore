@@ -28,10 +28,6 @@ D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microso
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.AspNet.Identity.Owin.dll
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.dll
-D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.Security.Cookies.dll
-D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.Security.dll
-D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.Security.OAuth.dll
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Web.Infrastructure.dll
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Newtonsoft.Json.dll
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Owin.dll
@@ -63,10 +59,6 @@ D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\EntityF
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.AspNet.Identity.Core.xml
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.AspNet.Identity.Owin.xml
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.xml
-D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.Security.xml
-D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.Security.Cookies.xml
-D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.Security.OAuth.xml
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\obj\Debug\MovieStore.dll
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\obj\Debug\MovieStore.pdb
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\roslyn\csc.exe.config
@@ -109,4 +101,3 @@ D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microso
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\System.Diagnostics.DiagnosticSource.dll
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\System.Diagnostics.DiagnosticSource.xml
-D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\obj\Debug\MovieStore.csprojResolveAssemblyReference.cache
