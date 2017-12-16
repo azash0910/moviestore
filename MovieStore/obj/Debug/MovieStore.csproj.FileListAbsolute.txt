@@ -101,3 +101,4 @@ D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microso
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\System.Diagnostics.DiagnosticSource.dll
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\System.Diagnostics.DiagnosticSource.xml
+D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\obj\Debug\MovieStore.csprojResolveAssemblyReference.cache

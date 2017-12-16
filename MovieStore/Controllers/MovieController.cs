@@ -15,11 +15,52 @@ namespace MovieStore.Controllers
         MovieContext db = new MovieContext();
 
         // GET: Movie
-        public ActionResult Index()
+        public ActionResult Index(string sort)
         {
-            var movies = db.Movies.ToList();
 
-            return View(movies);
+            var movies = from s in db.Movies
+                         select s;
+
+            try
+            {
+                ViewBag.Order = sort.Split('_')[1];
+            } catch
+            {
+                ViewBag.Order = "desc";
+            }
+            
+            switch (sort)
+            {
+                case "title_desc":
+                    movies = movies.OrderByDescending(s => s.Titel);
+                    break;
+                case "title_asc":
+                    movies = movies.OrderBy(s => s.Titel);
+                    break;
+                case "length_desc":
+                    movies = movies.OrderByDescending(s => s.Length);
+                    break;
+                case "length_asc":
+                    movies = movies.OrderBy(s => s.Length);
+                    break;
+                case "genre_desc":
+                    movies = movies.OrderByDescending(s => s.Genre);
+                    break;
+                case "genre_asc":
+                    movies = movies.OrderBy(s => s.Genre);
+                    break;
+                case "year_desc":
+                    movies = movies.OrderByDescending(s => s.Year);
+                    break;
+                case "year_asc":
+                    movies = movies.OrderBy(s => s.Year);
+                    break;
+                default:
+                    movies = movies.OrderBy(s => s.Titel);
+                    break;
+            }
+            
+            return View(movies.ToList());
         }
 
         // GET: Movie/Details/5
