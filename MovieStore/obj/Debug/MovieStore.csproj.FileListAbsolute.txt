@@ -77,7 +77,6 @@ D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microso
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.Security.Google.xml
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.Security.Twitter.xml
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\obj\Debug\MovieStore.csprojResolveAssemblyReference.cache
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\obj\Debug\MovieStore.dll
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\obj\Debug\MovieStore.pdb
 D:\tomas\Documents\visual studio 2015\Projects\MovieStore\MovieStore\bin\roslyn\csc.exe.config
