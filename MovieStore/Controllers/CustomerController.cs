@@ -18,7 +18,6 @@ namespace MovieStore.Controllers
         {
             var customers = from s in db.Customers
                          select s;
-
             try
             {
                 ViewBag.Order = sort.Split('_')[1];
@@ -53,19 +52,22 @@ namespace MovieStore.Controllers
         // GET: Customer/Details/5
         public ActionResult Details(int? id)
         {
-
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
             CustomerModel customer = db.Customers.Find(id);
+
+            var rentMovies = from s in db.RentMovies
+                                 where s.CustomerId.Equals(id)
+                                 select s;
+            
             if (customer == null)
             {
                 return HttpNotFound();
             }
             return View(customer);
-
         }
 
         // GET: Customer/Create

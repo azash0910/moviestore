@@ -188,6 +188,7 @@
     <Compile Include="Models\CustomerModel.cs" />
     <Compile Include="Models\MovieModel.cs" />
     <Compile Include="Models\RentMovieModel.cs" />
+    <Compile Include="Models\RentMovieViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -254,10 +255,14 @@
     <Content Include="Views\Movie\Create.cshtml" />
     <Content Include="Views\Movie\Edit.cshtml" />
     <Content Include="Views\Movie\Delete.cshtml" />
+    <Content Include="Views\RentMovie\Index.cshtml" />
+    <Content Include="Views\RentMovie\Details.cshtml" />
+    <Content Include="Views\RentMovie\Create.cshtml" />
+    <Content Include="Views\RentMovie\Edit.cshtml" />
+    <Content Include="Views\RentMovie\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\RentMovie\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

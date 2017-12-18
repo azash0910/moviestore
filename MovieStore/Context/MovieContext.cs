@@ -11,6 +11,6 @@ namespace MovieStore.Context
     {
         public DbSet<MovieModel> Movies { get; set; }
         public DbSet<CustomerModel> Customers { get; set; }
-
+        public DbSet<RentMovieModel> RentMovies { get; set; }
     }
 }
