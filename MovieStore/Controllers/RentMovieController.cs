@@ -30,7 +30,8 @@ namespace MovieStore.Controllers
                               CustomerId = rent.CustomerId,
                               RentDate = rent.RentDate,
                               MovieName = movie.Titel,
-                              CustomerName = customer.Firstname + " " + customer.Lastname
+                              CustomerName = customer.Firstname + " " + customer.Lastname,
+                              Status = rent.Status
                           });
 
             return View(rentmovies);
